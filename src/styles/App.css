@@ -2,7 +2,7 @@ body {
     background-image: url("/public/cosmos-1853491.jpg");
     color: antiquewhite;
     background-size: cover;
-    font-family: Monospace;
+    font-family: monospace;
     background-position: center;
     margin: 5px;
     padding: 5px;
