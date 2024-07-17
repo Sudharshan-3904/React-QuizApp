@@ -108,7 +108,7 @@ const Quiz = () => {
                         <Question
                             key={index}
                             question={question}
-                            index={index + (currentPage - 1) * questionsPerPage}
+                            index={index + (currentPage - 1) * questionsPerPage + 1}
                             handleChange={handleChange}
                             userAnswers={userAnswers}
                         />

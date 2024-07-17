@@ -1,6 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
-import "./Questions.css";
+import "../styles/Questions.css";
 
 const Question = ({ question, index, handleChange, userAnswers }) => {
     const renderOptions = (options, name, type) => {
@@ -20,7 +20,9 @@ const Question = ({ question, index, handleChange, userAnswers }) => {
 
     return (
         <div className="question">
-            <p>{question.question}</p>
+            <p>
+                <strong>Q{index}:</strong> {question.question}
+            </p>
             {question.type === "text" && (
                 <input type="text" name={`q${index}`} value={userAnswers[`q${index}`] || ""} onChange={handleChange} />
             )}
