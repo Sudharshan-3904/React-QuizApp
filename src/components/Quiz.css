@@ -1,0 +1,33 @@
+.quiz {
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.questions_container {
+    background: rgba(154, 120, 120, 0.16);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(4.8px);
+    -webkit-backdrop-filter: blur(4.8px);
+    border: 1px solid rgba(154, 120, 120, 0.46);
+}
+
+.page-indicator {
+    margin-bottom: 10px;
+}
+
+.page-indicator span {
+    font-size: 24px;
+    margin: 0 2px;
+    color: lightgray;
+}
+
+.page-indicator .active {
+    color: black;
+}
+
+.pagination {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}

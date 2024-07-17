@@ -1,0 +1,142 @@
+[
+    {
+        "question": "What is the Big Bang Theory?",
+        "type": "radio",
+        "options": [
+            "A theory about the creation of the universe",
+            "A TV show",
+            "A theory about black holes",
+            "A theory about the end of the universe"
+        ],
+        "answer": ["A theory about the creation of the universe"]
+    },
+    {
+        "question": "What is a light year?",
+        "type": "dropdown",
+        "options": [
+            "The time it takes for light to travel around the Earth",
+            "The distance light travels in one year",
+            "The time it takes for the Earth to orbit the Sun",
+            "The distance between the Earth and the Sun"
+        ],
+        "answer": ["The distance light travels in one year"]
+    },
+    {
+        "question": "Which elements are most abundant in the universe?",
+        "type": "checkbox",
+        "options": ["Oxygen", "Carbon", "Hydrogen", "Helium"],
+        "answer": ["Hydrogen", "Helium"]
+    },
+    {
+        "question": "What is the name of our galaxy?",
+        "type": "text",
+        "answer": ["Milky Way"]
+    },
+    {
+        "question": "Who proposed the theory of general relativity?",
+        "type": "radio",
+        "options": ["Isaac Newton", "Albert Einstein", "Galileo Galilei", "Niels Bohr"],
+        "answer": ["Albert Einstein"]
+    },
+    {
+        "question": "What is dark matter?",
+        "type": "dropdown",
+        "options": [
+            "A type of black hole",
+            "Invisible matter that doesn't emit light",
+            "Antimatter",
+            "A type of neutron star"
+        ],
+        "answer": ["Invisible matter that doesn't emit light"]
+    },
+    {
+        "question": "Which of these is a type of galaxy?",
+        "type": "checkbox",
+        "options": ["Spiral", "Circular", "Elliptical", "Irregular"],
+        "answer": ["Spiral", "Elliptical", "Irregular"]
+    },
+    {
+        "question": "What is a black hole?",
+        "type": "text",
+        "answer": ["A singularity"]
+    },
+    {
+        "question": "Who discovered the expanding universe?",
+        "type": "radio",
+        "options": ["Edwin Hubble", "Stephen Hawking", "Carl Sagan", "Neil deGrasse Tyson"],
+        "answer": ["Edwin Hubble"]
+    },
+    {
+        "question": "What is the cosmic microwave background radiation?",
+        "type": "dropdown",
+        "options": [
+            "Radiation from stars",
+            "Leftover radiation from the Big Bang",
+            "Radiation from black holes",
+            "Radiation from supernovae"
+        ],
+        "answer": ["Leftover radiation from the Big Bang"]
+    },
+    {
+        "question": "Which theory explains the formation of the solar system and the universe?",
+        "type": "checkbox",
+        "options": ["Steady State Theory", "Big Bang Theory", "Nebular Hypothesis", "String Theory"],
+        "answer": ["Nebular Hypothesis", "Big Bang Theory"]
+    },
+    {
+        "question": "What is the approximate age of the universe?",
+        "type": "text",
+        "answer": ["13.8 billion years"]
+    },
+    {
+        "question": "Which planet is known as the 'Red Planet'?",
+        "type": "radio",
+        "options": ["Venus", "Saturn", "Mars", "Jupiter"],
+        "answer": ["Mars"]
+    },
+    {
+        "question": "What is a supernova?",
+        "type": "dropdown",
+        "options": ["A new star forming", "The explosion of a star", "A type of black hole", "The collapse of a star"],
+        "answer": ["The explosion of a star"]
+    },
+    {
+        "question": "What is Gargantua?",
+        "type": "checkbox",
+        "options": ["A black hole", "A Measure of black hole", "Orbited by Miller and Mann", "A type of galaxy"],
+        "answer": ["A distant, active galactic nucleus", "Orbited by Miller and Mann"]
+    },
+    {
+        "question": "What force holds galaxies together?",
+        "type": "text",
+        "answer": ["Gravity"]
+    },
+    {
+        "question": "Which of these is not a type of telescope?",
+        "type": "radio",
+        "options": ["Optical", "Radio", "Infrared", "Ultrasound"],
+        "answer": ["Ultrasound"]
+    },
+    {
+        "question": "What is the main component of stars?",
+        "type": "dropdown",
+        "options": ["Helium", "Oxygen", "Carbon", "Hydrogen"],
+        "answer": ["Hydrogen"]
+    },
+    {
+        "question": "What is the event horizon of a black hole?",
+        "type": "checkbox",
+        "options": [
+            "The point beyond which nothing can escape",
+            "The center of the black hole",
+            "The outer edge of the black hole",
+            "The data layer of the black hole"
+        ],
+        "answer": ["The point beyond which nothing can escape", "The data layer of the black hole"]
+    },
+    {
+        "question": "Who formulated the laws of planetary motion?",
+        "type": "text",
+        "answer": ["Johannes Kepler"]
+    }
+]

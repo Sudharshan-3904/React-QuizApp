@@ -1,0 +1,47 @@
+body {
+    background-image: url("/public/cosmos-1853491.jpg");
+    color: antiquewhite;
+    background-size: cover;
+    background-position: center;
+}
+
+.App {
+    text-align: center;
+}
+
+.quiz {
+    margin: 0 auto;
+    max-width: 600px;
+}
+
+.question {
+    margin-bottom: 20px;
+}
+
+.pagination button {
+    margin: 5px;
+}
+
+.timer {
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.page-indicator {
+    margin-top: 10px;
+}
+
+.page-indicator span {
+    font-size: 24px;
+    margin: 0 5px;
+    color: gray;
+}
+
+.page-indicator span.active {
+    color: black;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 10px;
+}

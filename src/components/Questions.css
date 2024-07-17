@@ -1,0 +1,9 @@
+.question {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.option-label {
+    display: block;
+    margin: 5px 0;
+}
