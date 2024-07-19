@@ -54,16 +54,29 @@ const Quiz = () => {
         setCurrentPage(1);
     };
 
+    const arraysEqual = (arr1, arr2) => {
+        if (!arr1 || !arr2.length) return false;
+        if (arr1.length !== arr2.length) return false;
+        let sortedArr1 = arr1.slice().sort();
+        let sortedArr2 = arr2.slice().sort();
+        for (let i = 0; i < sortedArr1.length; i++) {
+            if (sortedArr1[i] !== sortedArr2[i]) return false;
+        }
+        return true;
+    };
+
     const calculateScore = () => {
         let totalScore = 0;
         questions.forEach((question, index) => {
-            const userAnswer = userAnswers[`q${index}`];
-            if (question.type === "checkbox") {
-                if (JSON.stringify(userAnswer?.sort()) === JSON.stringify(question.answer.sort())) {
+            const userAnswer = userAnswers[`q${index + 1}`];
+            if (question.type == "checkbox") {
+                if (arraysEqual(userAnswer, question.answer)) {
                     totalScore += 1;
                 }
-            } else if (userAnswer === question.answer[0]) {
+            } else if (String(userAnswer).toLowerCase() == String(question.answer[0]).toLowerCase()) {
                 totalScore += 1;
+            } else {
+                console.log("No Answer");
             }
         });
         setScore(totalScore);
